@@ -1,0 +1,38 @@
+# Domain Entities and Properties
+
+___________________________'
+Intended for one user
+get reward for each task,
+each task has difficulty from 1 to 5
+
+
+daily-task:
+reward is multiplied when in streak of a daily task
+rewarded for making all daily tasks
+
+todolist:
+reward multiplied for early check
+reward reduced for post deadline check
+possible no deadline
+
+habits:
+habits are quantitatif tasks that can be incremented
+more quantity in oneday gives more 
+'___________________________
+
+
+Todolist ( done = soft delet, )
+task-id, Creation-date, text, deadline-date, done(bool), done-date, delet(bool), delet-date, difficulty, reward(int), description
+
+
+Dailylist ( restarts everyday )
+daily-task-id, Creation-date, text, delet(bool), delet-date, difficulty, reward(int), max-streak(int), description, description
+
+habitslist ( reset counter everyday )
+habit-id, Creation-date, text, delet(bool), delet-date, difficulty, reward(int), expected-frequency, good/bad(bool), description
+
+Daily-activity 
+activity-id, daily-task-check-date, daily-task-id, streak(int),
+
+habit-activity
+activity-id, habit-increment-date, habit-id,
