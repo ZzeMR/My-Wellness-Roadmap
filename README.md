@@ -2,5 +2,8 @@
 
 <img src="Logo/mini_tr_logo.png" width="200">
 
-a Mental Well-being Revolution.\
-Maximize Wellness, Reignite !
+**slogans:**
+- a Mental Well-being Revolution.
+- Maximize Wellness, Reignite !
+
+## Assist us by making a contribution.
